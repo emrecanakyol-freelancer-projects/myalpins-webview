@@ -62,8 +62,7 @@ const App = () => {
           />
         }>
         <WebView
-          // source={{uri: 'https://www.myalpins.com/en/content/12-app'}}
-          source={{uri: 'https://seninustan.com/'}}
+          source={{uri: 'https://www.myalpins.com/en/content/12-app'}}
           onLoadProgress={event => setCanGoBack(event.nativeEvent.canGoBack)}
           ref={webViewRef}
           originWhitelist={['*']}
